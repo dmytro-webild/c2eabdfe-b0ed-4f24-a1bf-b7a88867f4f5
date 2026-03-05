@@ -2,6 +2,6 @@
   "name": "NavbarStyleApple",
   "propsSchema": {
     "navItems": "Array<{name: string, id: string}>",
-    "brandName?": "string (default: 'Contact Us ')"
+    "brandName?": "string (default: 'Webild')"
   }
 }
