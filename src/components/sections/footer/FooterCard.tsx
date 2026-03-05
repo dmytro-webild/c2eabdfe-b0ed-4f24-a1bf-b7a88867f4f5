@@ -26,8 +26,8 @@ interface FooterCardProps {
 const FooterCard = ({
   // logoSrc,
   // logoAlt = "Logo",
-  logoText = "Contact Us ",
-  copyrightText = `© 2025 | Contact Us `,
+  logoText = "Webild",
+  copyrightText = `© 2025 | Webild`,
   socialLinks,
   ariaLabel = "Site footer",
   className = "",
