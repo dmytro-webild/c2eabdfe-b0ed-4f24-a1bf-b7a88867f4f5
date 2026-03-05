@@ -31,11 +31,11 @@ interface FooterBaseCardProps {
 
 const FooterBaseCard = ({
   // logoSrc = "/brand/logowhite.svg",
-  logoText = "Webild",
+  logoText = "Contact Us ",
   // logoWidth = 120,
   // logoHeight = 40,
   columns,
-  copyrightText = `© 2025 | Webild`,
+  copyrightText = `© 2025 | Contact Us `,
   onPrivacyClick,
   ariaLabel = "Site footer",
   className = "",
