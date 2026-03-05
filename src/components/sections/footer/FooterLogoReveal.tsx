@@ -28,7 +28,7 @@ interface FooterLogoRevealProps {
 const FooterLogoReveal = ({
   // logoSrc,
   // logoAlt = "Logo",
-  logoText = "Webild",
+  logoText = "Contact Us ",
   leftLink,
   rightLink,
   ariaLabel = "Site footer",
