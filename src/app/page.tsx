@@ -84,7 +84,7 @@ export default function HomePage() {
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
           navItems={navItems}
-          brandName="VintDragon"
+          brandName="Vintdragon"
           button={{
             text: "Book Strategy Call",            href: "/contact"}}
           animateOnLoad={true}
@@ -94,10 +94,10 @@ export default function HomePage() {
       <div id="hero" data-section="hero">
         <HeroCentered
           title="Grow Your Business Through High-Performance Digital Marketing & Web Development"
-          description="VintDragon helps scaling companies generate more leads, dominate their markets, and drive measurable revenue growth through strategic web design, AI-powered marketing, and data-driven optimization."
+          description="Vintdragon helps scaling companies generate more leads, dominate their markets, and drive measurable revenue growth through strategic web design, AI-powered marketing, and data-driven optimization."
           avatars={[
             {
-              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-confident-bus-1772731415869-4f91450a.png",              alt: "VintDragon client success"},
+              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-confident-bus-1772731415869-4f91450a.png",              alt: "Vintdragon client success"},
             {
               src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-female-entrep-1772731418645-6ba957ca.png",              alt: "Satisfied business partner"},
             {
@@ -153,7 +153,7 @@ export default function HomePage() {
 
       <div id="why-vintdragon" data-section="why-vintdragon">
         <FeatureBento
-          title="Why Choose VintDragon"
+          title="Why Choose Vintdragon"
           description="We're not just a design agency. We're strategic growth partners obsessed with your results. Here's what sets us apart:"
           tag="Our Approach"
           tagIcon={Award}
@@ -206,7 +206,7 @@ export default function HomePage() {
 
       <div id="testimonials" data-section="testimonials">
         <TestimonialCardFifteen
-          testimonial="VintDragon transformed our online presence completely. Within 6 months, our leads tripled and our website now converts at 2x the industry average. Their team is professional, responsive, and genuinely invested in our success. They don't just deliver projects—they deliver real business growth."
+          testimonial="Vintdragon transformed our online presence completely. Within 6 months, our leads tripled and our website now converts at 2x the industry average. Their team is professional, responsive, and genuinely invested in our success. They don't just deliver projects—they deliver real business growth."
           rating={5}
           author="Sarah Martinez, CEO at TechScale Inc."
           avatars={[
@@ -334,7 +334,7 @@ export default function HomePage() {
       <div id="footer" data-section="footer">
         <FooterBaseReveal
           columns={footerColumns}
-          copyrightText="© 2025 VintDragon. Driving Business Growth Through Digital Excellence."
+          copyrightText="© 2025 Vintdragon. Driving Business Growth Through Digital Excellence."
         />
       </div>
     </ThemeProvider>
