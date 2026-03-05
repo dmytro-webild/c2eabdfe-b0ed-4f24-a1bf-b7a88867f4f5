@@ -6,7 +6,7 @@
     "textRules": {
       "logoText": {
         "required": false,
-        "example": "Contact Us ",
+        "example": "Webild",
         "minChars": 2,
         "maxChars": 30,
         "note": "Text used for SVG logo"
@@ -20,7 +20,7 @@
     }
   },
   "propsSchema": {
-    "logoText?": "string (default: 'Contact Us ')",
+    "logoText?": "string (default: 'Webild')",
     "leftLink": "{ text: string, onClick?: () => void, href?: string } (required)",
     "rightLink": "{ text: string, onClick?: () => void, href?: string } (required)",
     "ariaLabel?": "string (default: 'Site footer')",
@@ -30,7 +30,7 @@
     "logoClassName?": "string",
     "linkClassName?": "string"
   },
-  "usageExample": "<FooterLogoReveal logoText=\"Contact Us \" leftLink={{ text: 'Privacy Policy', href: '/privacy' }} rightLink={{ text: 'Terms of Service', href: '/terms' }} />",
+  "usageExample": "<FooterLogoReveal logoText=\"Webild\" leftLink={{ text: 'Privacy Policy', href: '/privacy' }} rightLink={{ text: 'Terms of Service', href: '/terms' }} />",
   "do": [
     "Use for general use"
   ],
