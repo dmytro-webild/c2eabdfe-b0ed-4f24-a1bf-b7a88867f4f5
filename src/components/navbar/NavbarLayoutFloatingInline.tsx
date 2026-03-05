@@ -23,7 +23,7 @@ interface NavbarLayoutFloatingInlineProps {
 
 const NavbarLayoutFloatingInline = ({
   navItems,
-  brandName = "Webild",
+  brandName = "Contact Us ",
   button,
   animateOnLoad = true,
   className = "",

@@ -2,7 +2,7 @@
   "name": "NavbarLayoutFloatingInline",
   "propsSchema": {
     "navItems": "Array<{name: string, id: string}>",
-    "brandName?": "string (default: 'Webild')",
+    "brandName?": "string (default: 'Contact Us ')",
     "button": "{text: string, onClick?: () => void, href?: string}",
     "animateOnLoad?": "boolean (default: true)",
     "className?": "string (default: '')",
