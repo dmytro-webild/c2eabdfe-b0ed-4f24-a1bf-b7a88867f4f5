@@ -25,7 +25,7 @@ const NavbarStyleApple = ({
   navItems,
   // logoSrc,
   // logoAlt = "",
-  brandName = "Contact Us ",
+  brandName = "Webild",
   button,
   buttonClassName = "",
   buttonTextClassName = "",
