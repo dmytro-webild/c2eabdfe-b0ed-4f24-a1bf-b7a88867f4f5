@@ -75,7 +75,7 @@ export default function ServicesPage() {
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
           navItems={navItems}
-          brandName="VintDragon"
+          brandName="Vintdragon"
           button={{
             text: "Book Strategy Call",
             href: "/contact",
@@ -153,7 +153,7 @@ export default function ServicesPage() {
       <div id="footer" data-section="footer">
         <FooterBaseReveal
           columns={footerColumns}
-          copyrightText="© 2025 VintDragon. Driving Business Growth Through Digital Excellence."
+          copyrightText="© 2025 Vintdragon. Driving Business Growth Through Digital Excellence."
         />
       </div>
     </ThemeProvider>

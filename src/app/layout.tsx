@@ -23,7 +23,7 @@ const mulish = Mulish({
 });
 
 export const metadata: Metadata = {
-  title: "VintDragon - Digital Marketing & Web Development for Growing Businesses",
+  title: "Vintdragon - Digital Marketing & Web Development for Growing Businesses",
   description: "Premium digital marketing and web development agency. We help scaling companies generate more leads, dominate their markets, and drive measurable revenue growth through strategic design and AI-powered solutions.",
   keywords: "digital marketing, web development, SEO, paid advertising, conversion optimization, AI marketing, website design, growth agency, lead generation, performance marketing",
   metadataBase: new URL("https://vintdragon.com"),
@@ -31,21 +31,21 @@ export const metadata: Metadata = {
     canonical: "https://vintdragon.com",
   },
   openGraph: {
-    title: "VintDragon - Digital Marketing & Web Development",
+    title: "Vintdragon - Digital Marketing & Web Development",
     description: "Strategic growth partner helping businesses generate more leads and revenue through high-performance websites and data-driven marketing.",
     url: "https://vintdragon.com",
-    siteName: "VintDragon",
+    siteName: "Vintdragon",
     images: [
       {
         url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/a-modern-data-visualization-dashboard-sh-1772731420415-4a8ffe67.png",
-        alt: "VintDragon - Digital Growth & Marketing",
+        alt: "Vintdragon - Digital Growth & Marketing",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "VintDragon - Results-Driven Digital Marketing & Web Development",
+    title: "Vintdragon - Results-Driven Digital Marketing & Web Development",
     description: "Grow your business through strategic web design, AI-powered marketing, and data-driven optimization.",
     images: [
       "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/a-modern-data-visualization-dashboard-sh-1772731420415-4a8ffe67.png",
