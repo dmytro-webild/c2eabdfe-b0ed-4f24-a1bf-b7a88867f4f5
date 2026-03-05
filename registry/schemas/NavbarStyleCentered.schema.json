@@ -4,7 +4,7 @@
     "navItems": "Array<{name: string, id: string}>",
     "button": "{text: string, onClick?: () => void, href?: string}",
     "topBarButton?": "{text: string, onClick?: () => void, href?: string}",
-    "brandName?": "string (default: 'Contact Us ')",
+    "brandName?": "string (default: 'CONTACT US ')",
     "className?": "string (default: '')"
   }
 }
