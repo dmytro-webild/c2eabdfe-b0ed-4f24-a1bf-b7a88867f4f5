@@ -2,7 +2,7 @@
   "name": "FooterLogoEmphasis",
   "propsSchema": {
     "columns": "Array<{ items: Array<{ label: string, href?: string, onClick?: () => void }> }> - Footer navigation columns (required, max 5)",
-    "logoText?": "string (default: 'Webild')",
+    "logoText?": "string (default: 'Contact Us ')",
     "ariaLabel?": "string (default: 'Site footer')",
     "className?": "string",
     "containerClassName?": "string",
