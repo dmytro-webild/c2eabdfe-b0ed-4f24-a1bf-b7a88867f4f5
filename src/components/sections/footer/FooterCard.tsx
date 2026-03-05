@@ -26,8 +26,8 @@ interface FooterCardProps {
 const FooterCard = ({
   // logoSrc,
   // logoAlt = "Logo",
-  logoText = "Contact Us ",
-  copyrightText = `© 2025 | Contact Us `,
+  logoText = "CONTACT US ",
+  copyrightText = `© 2025 | CONTACT US `,
   socialLinks,
   ariaLabel = "Site footer",
   className = "",
