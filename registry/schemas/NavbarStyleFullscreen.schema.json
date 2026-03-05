@@ -2,7 +2,7 @@
   "name": "NavbarStyleFullscreen",
   "propsSchema": {
     "navItems": "Array<{name: string, id: string}>",
-    "brandName?": "string (default: 'Contact Us ')",
+    "brandName?": "string (default: 'CONTACT US ')",
     "bottomLeftText?": "string (default: 'Global Community')",
     "bottomRightText?": "string (default: 'hello@example.com')",
     "topBarClassName?": "string (default: '')"
