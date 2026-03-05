@@ -7,7 +7,7 @@ import FeatureBorderGlow from "@/components/sections/feature/featureBorderGlow/F
 import FeatureBento from "@/components/sections/feature/FeatureBento";
 import TestimonialCardFifteen from "@/components/sections/testimonial/TestimonialCardFifteen";
 import ContactCenter from "@/components/sections/contact/ContactCenter";
-import FooterCard from "@/components/sections/footer/FooterCard";
+import FooterBaseReveal from "@/components/sections/footer/FooterBaseReveal";
 import Link from "next/link";
 import {
   Layout,
@@ -39,6 +39,35 @@ export default function HomePage() {
     { name: "Process", id: "/process" },
   ];
 
+  const footerColumns = [
+    {
+      title: "Services",      items: [
+        { label: "Web Design & Development", href: "/services" },
+        { label: "Digital Marketing Strategy", href: "/services" },
+        { label: "SEO & Search Visibility", href: "/services" },
+        { label: "Paid Advertising", href: "/services" },
+        { label: "AI Optimization", href: "/services" },
+      ],
+    },
+    {
+      title: "Company",      items: [
+        { label: "About Us", href: "/about" },
+        { label: "Portfolio", href: "/portfolio" },
+        { label: "Process", href: "#process" },
+        { label: "Contact", href: "/contact" },
+        { label: "Blog", href: "#" },
+      ],
+    },
+    {
+      title: "Legal",      items: [
+        { label: "Privacy Policy", href: "#" },
+        { label: "Terms of Service", href: "#" },
+        { label: "Cookie Policy", href: "#" },
+        { label: "Disclaimer", href: "#" },
+      ],
+    },
+  ];
+
   return (
     <ThemeProvider
       defaultButtonVariant="hover-bubble"
@@ -57,8 +86,7 @@ export default function HomePage() {
           navItems={navItems}
           brandName="VintDragon"
           button={{
-            text: "Book Strategy Call",            href: "/contact"
-          }}
+            text: "Book Strategy Call",            href: "/contact"}}
           animateOnLoad={true}
         />
       </div>
@@ -304,8 +332,8 @@ export default function HomePage() {
       </div>
 
       <div id="footer" data-section="footer">
-        <FooterCard
-          logoText="VintDragon"
+        <FooterBaseReveal
+          columns={footerColumns}
           copyrightText="© 2025 VintDragon. Driving Business Growth Through Digital Excellence."
         />
       </div>
