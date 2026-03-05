@@ -12,7 +12,7 @@
       },
       "bottomRightText": {
         "required": true,
-        "example": "Made with Webild",
+        "example": "Made with Contact Us ",
         "minChars": 2,
         "maxChars": 50
       },
@@ -63,7 +63,7 @@
     "bottomLeftTextClassName?": "string",
     "bottomRightTextClassName?": "string"
   },
-  "usageExample": "<FooterSimple columns={[{ title: 'Navigate', items: [{ label: 'Home', href: '#' }, { label: 'About', href: '#' }] }, { title: 'Resources', items: [{ label: 'Blog', href: '#' }, { label: 'FAQ', href: '#' }] }, { title: 'Legal', items: [{ label: 'Privacy', href: '#' }, { label: 'Terms', href: '#' }] }]} bottomLeftText=\"© 2025 Company. All rights reserved.\" bottomRightText=\"Made with Webild\" />",
+  "usageExample": "<FooterSimple columns={[{ title: 'Navigate', items: [{ label: 'Home', href: '#' }, { label: 'About', href: '#' }] }, { title: 'Resources', items: [{ label: 'Blog', href: '#' }, { label: 'FAQ', href: '#' }] }, { title: 'Legal', items: [{ label: 'Privacy', href: '#' }, { label: 'Terms', href: '#' }] }]} bottomLeftText=\"© 2025 Company. All rights reserved.\" bottomRightText=\"Made with Contact Us \" />",
   "do": [
     "Use for feature showcases",
     "Use for capability displays",
