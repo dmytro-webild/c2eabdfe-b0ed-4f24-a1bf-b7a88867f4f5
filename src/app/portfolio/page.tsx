@@ -26,8 +26,7 @@ export default function PortfolioPage() {
 
   const footerColumns = [
     {
-      title: "Services",
-      items: [
+      title: "Services",      items: [
         { label: "Web Design & Development", href: "/services" },
         { label: "Digital Marketing Strategy", href: "/services" },
         { label: "SEO & Search Visibility", href: "/services" },
@@ -36,8 +35,7 @@ export default function PortfolioPage() {
       ],
     },
     {
-      title: "Company",
-      items: [
+      title: "Company",      items: [
         { label: "About Us", href: "/about" },
         { label: "Portfolio", href: "/portfolio" },
         { label: "Process", href: "#process" },
@@ -46,8 +44,7 @@ export default function PortfolioPage() {
       ],
     },
     {
-      title: "Legal",
-      items: [
+      title: "Legal",      items: [
         { label: "Privacy Policy", href: "#" },
         { label: "Terms of Service", href: "#" },
         { label: "Cookie Policy", href: "#" },
@@ -74,9 +71,7 @@ export default function PortfolioPage() {
           navItems={navItems}
           brandName="VintDragon"
           button={{
-            text: "Book Strategy Call",
-            href: "/contact",
-          }}
+            text: "Book Strategy Call",            href: "/contact"}}
           animateOnLoad={true}
         />
       </div>
@@ -87,24 +82,18 @@ export default function PortfolioPage() {
           description="See the measurable impact VintDragon has delivered to businesses like yours. Our portfolio showcases strategic design, data-driven marketing, and tangible revenue growth."
           avatars={[
             {
-              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-confident-bus-1772731415869-4f91450a.png",
-              alt: "Success stories",
-            },
+              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-confident-bus-1772731415869-4f91450a.png",              alt: "Success stories"},
             {
-              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-female-entrep-1772731418645-6ba957ca.png",
-              alt: "Client success",
-            },
+              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-female-entrep-1772731418645-6ba957ca.png",              alt: "Client success"},
             {
-              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-male-business-1772731419967-22cbf118.png",
-              alt: "Growth achieved",
-            },
+              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-male-business-1772731419967-22cbf118.png",              alt: "Growth achieved"},
           ]}
           avatarText="50+ thriving business partnerships"
           buttons={[
             { text: "Schedule Your Strategy Call", href: "/contact" },
             { text: "Back to Home", href: "/" },
           ]}
-          background={{ variant: "downward-rays-static" }}
+          background={{ variant: "downward-rays-static-grid" }}
           buttonAnimation="slide-up"
         />
       </div>
@@ -117,46 +106,30 @@ export default function PortfolioPage() {
           tagIcon={Trophy}
           features={[
             {
-              title: "E-Commerce Platform Redesign",
-              description:
-                "Complete strategic overhaul of an outdated e-commerce platform. New design, improved UX, and conversion optimization delivered extraordinary results.",
-              bentoComponent: "media-stack",
-              items: [
+              title: "E-Commerce Platform Redesign",              description:
+                "Complete strategic overhaul of an outdated e-commerce platform. New design, improved UX, and conversion optimization delivered extraordinary results.",              bentoComponent: "media-stack",              items: [
                 {
                   imageSrc:
-                    "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/before-and-after-comparison-of-a-corpora-1772731419773-dd5a6bf8.png?_wi=2",
-                  imageAlt: "Before and after redesign",
-                },
+                    "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/before-and-after-comparison-of-a-corpora-1772731419773-dd5a6bf8.png",                  imageAlt: "Before and after redesign"},
                 {
                   imageSrc:
-                    "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/e-commerce-website-showcase-with-modern--1772731420444-ca39301f.png?_wi=2",
-                  imageAlt: "Modern e-commerce showcase",
-                },
+                    "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/e-commerce-website-showcase-with-modern--1772731420444-ca39301f.png",                  imageAlt: "Modern e-commerce showcase"},
                 {
                   imageSrc:
-                    "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-services-website-redesign-s-1772731420366-1e377798.png?_wi=2",
-                  imageAlt: "Success transformation",
-                },
+                    "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-services-website-redesign-s-1772731420366-1e377798.png",                  imageAlt: "Success transformation"},
               ],
             },
             {
-              title: "B2B Services Lead Generation",
-              description:
-                "Strategic website redesign combined with integrated digital marketing. Generated qualified leads at scale with significant ROI improvement.",
-              bentoComponent: "icon-info-cards",
-              items: [
+              title: "B2B Services Lead Generation",              description:
+                "Strategic website redesign combined with integrated digital marketing. Generated qualified leads at scale with significant ROI improvement.",              bentoComponent: "icon-info-cards",              items: [
                 { icon: TrendingUp, label: "Lead Growth", value: "420%" },
                 { icon: DollarSign, label: "Cost Per Lead", value: "-55%" },
                 { icon: Target, label: "Marketing ROI", value: "12x" },
               ],
             },
             {
-              title: "Local Market Dominance",
-              description:
-                "Comprehensive local SEO and paid advertising strategy. Achieved #1 rankings across all target keywords and consistent client flow.",
-              bentoComponent: "3d-task-list",
-              title: "Results Timeline",
-              items: [
+              title: "Local Market Dominance",              description:
+                "Comprehensive local SEO and paid advertising strategy. Achieved #1 rankings across all target keywords and consistent client flow.",              bentoComponent: "3d-task-list",              items: [
                 { icon: Search, label: "Google Rankings", time: "Month 3" },
                 { icon: Phone, label: "Appointment Calls", time: "Month 4" },
                 { icon: DollarSign, label: "Revenue Impact", time: "$2M+" },
@@ -176,29 +149,17 @@ export default function PortfolioPage() {
           author="Michael Chen, Founder of Growth Ventures"
           avatars={[
             {
-              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-confident-bus-1772731415869-4f91450a.png",
-              alt: "Client testimonial",
-            },
+              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-confident-bus-1772731415869-4f91450a.png",              alt: "Client testimonial"},
             {
-              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-female-entrep-1772731418645-6ba957ca.png",
-              alt: "Team feedback",
-            },
+              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-female-entrep-1772731418645-6ba957ca.png",              alt: "Team feedback"},
             {
-              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-male-business-1772731419967-22cbf118.png",
-              alt: "Satisfied partner",
-            },
+              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-male-business-1772731419967-22cbf118.png",              alt: "Satisfied partner"},
             {
-              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-confident-mar-1772731419935-167676be.png",
-              alt: "Success verification",
-            },
+              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-confident-mar-1772731419935-167676be.png",              alt: "Success verification"},
             {
-              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-confident-bus-1772731415869-4f91450a.png",
-              alt: "Additional testimonial",
-            },
+              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-confident-bus-1772731415869-4f91450a.png",              alt: "Additional testimonial"},
             {
-              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-female-entrep-1772731418645-6ba957ca.png",
-              alt: "Client team member",
-            },
+              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-female-entrep-1772731418645-6ba957ca.png",              alt: "Client team member"},
           ]}
           ratingAnimation="slide-up"
           avatarsAnimation="slide-up"
