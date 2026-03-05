@@ -41,8 +41,7 @@ export default function HomePage() {
 
   const footerColumns = [
     {
-      title: "Services",
-      items: [
+      title: "Services",      items: [
         { label: "Web Design & Development", href: "/services" },
         { label: "Digital Marketing Strategy", href: "/services" },
         { label: "SEO & Search Visibility", href: "/services" },
@@ -51,8 +50,7 @@ export default function HomePage() {
       ],
     },
     {
-      title: "Company",
-      items: [
+      title: "Company",      items: [
         { label: "About Us", href: "/about" },
         { label: "Portfolio", href: "/portfolio" },
         { label: "Process", href: "#process" },
@@ -61,8 +59,7 @@ export default function HomePage() {
       ],
     },
     {
-      title: "Legal",
-      items: [
+      title: "Legal",      items: [
         { label: "Privacy Policy", href: "#" },
         { label: "Terms of Service", href: "#" },
         { label: "Cookie Policy", href: "#" },
@@ -89,9 +86,7 @@ export default function HomePage() {
           navItems={navItems}
           brandName="VintDragon"
           button={{
-            text: "Book Strategy Call",
-            href: "/contact",
-          }}
+            text: "Book Strategy Call",            href: "/contact"}}
           animateOnLoad={true}
         />
       </div>
@@ -102,17 +97,11 @@ export default function HomePage() {
           description="VintDragon helps scaling companies generate more leads, dominate their markets, and drive measurable revenue growth through strategic web design, AI-powered marketing, and data-driven optimization."
           avatars={[
             {
-              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-confident-bus-1772731415869-4f91450a.png",
-              alt: "VintDragon client success",
-            },
+              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-confident-bus-1772731415869-4f91450a.png",              alt: "VintDragon client success"},
             {
-              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-female-entrep-1772731418645-6ba957ca.png",
-              alt: "Satisfied business partner",
-            },
+              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-female-entrep-1772731418645-6ba957ca.png",              alt: "Satisfied business partner"},
             {
-              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-male-business-1772731419967-22cbf118.png",
-              alt: "Case study participant",
-            },
+              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-male-business-1772731419967-22cbf118.png",              alt: "Case study participant"},
           ]}
           avatarText="Trusted by 50+ growing businesses"
           buttons={[
@@ -133,40 +122,28 @@ export default function HomePage() {
           features={[
             {
               icon: Layout,
-              title: "Website Design & Development",
-              description:
-                "Conversion-focused websites built for results. Strategic design, fast performance, and seamless user experience designed to turn visitors into customers.",
-            },
+              title: "Website Design & Development",              description:
+                "Conversion-focused websites built for results. Strategic design, fast performance, and seamless user experience designed to turn visitors into customers."},
             {
               icon: Lightbulb,
-              title: "Digital Marketing Strategy",
-              description:
-                "Data-driven strategies tailored to your business goals. We research your market, analyze competitors, and build a comprehensive growth plan with measurable KPIs.",
-            },
+              title: "Digital Marketing Strategy",              description:
+                "Data-driven strategies tailored to your business goals. We research your market, analyze competitors, and build a comprehensive growth plan with measurable KPIs."},
             {
               icon: Search,
-              title: "SEO & Search Visibility",
-              description:
-                "Dominate Google rankings and organic traffic. Technical SEO, content strategy, and continuous optimization to ensure your business is found by your ideal customers.",
-            },
+              title: "SEO & Search Visibility",              description:
+                "Dominate Google rankings and organic traffic. Technical SEO, content strategy, and continuous optimization to ensure your business is found by your ideal customers."},
             {
               icon: Target,
-              title: "Paid Advertising (Google & Social)",
-              description:
-                "Precision-targeted campaigns maximizing ROI. Expert management of Google Ads, Meta, LinkedIn, and more with continuous optimization and performance tracking.",
-            },
+              title: "Paid Advertising (Google & Social)",              description:
+                "Precision-targeted campaigns maximizing ROI. Expert management of Google Ads, Meta, LinkedIn, and more with continuous optimization and performance tracking."},
             {
               icon: TrendingUp,
-              title: "Conversion Optimization",
-              description:
-                "Turn more visitors into leads and sales. A/B testing, user behavior analysis, and strategic improvements that boost your conversion rates and revenue.",
-            },
+              title: "Conversion Optimization",              description:
+                "Turn more visitors into leads and sales. A/B testing, user behavior analysis, and strategic improvements that boost your conversion rates and revenue."},
             {
               icon: Zap,
-              title: "AI-Powered Website Optimization",
-              description:
-                "Leverage cutting-edge AI to personalize experiences, automate optimization, and predictively enhance performance. Future-proof your digital presence with intelligent technology.",
-            },
+              title: "AI-Powered Website Optimization",              description:
+                "Leverage cutting-edge AI to personalize experiences, automate optimization, and predictively enhance performance. Future-proof your digital presence with intelligent technology."},
           ]}
           animationType="slide-up"
           textboxLayout="default"
@@ -182,18 +159,12 @@ export default function HomePage() {
           tagIcon={Award}
           features={[
             {
-              title: "Strategy First, Not Just Design",
-              description:
-                "Every project starts with deep discovery. We understand your business, market, and goals before creating anything. Your success metrics drive every decision.",
-              bentoComponent: "reveal-icon",
-              icon: Brain,
+              title: "Strategy First, Not Just Design",              description:
+                "Every project starts with deep discovery. We understand your business, market, and goals before creating anything. Your success metrics drive every decision.",              bentoComponent: "reveal-icon",              icon: Brain,
             },
             {
-              title: "Conversion-Focused Websites",
-              description:
-                "Beautiful design means nothing without results. Every pixel, every CTA, every interaction is strategically placed to maximize conversions and revenue.",
-              bentoComponent: "orbiting-icons",
-              centerIcon: Target,
+              title: "Conversion-Focused Websites",              description:
+                "Beautiful design means nothing without results. Every pixel, every CTA, every interaction is strategically placed to maximize conversions and revenue.",              bentoComponent: "orbiting-icons",              centerIcon: Target,
               items: [
                 { icon: Eye, ring: 1 },
                 { icon: CheckCircle, ring: 2 },
@@ -201,55 +172,29 @@ export default function HomePage() {
               ],
             },
             {
-              title: "Data-Driven Decisions",
-              description:
-                "We don't guess. Every marketing decision is backed by analytics, testing, and measurable data. ROI and performance are constantly tracked and optimized.",
-              bentoComponent: "animated-bar-chart",
+              title: "Data-Driven Decisions",              description:
+                "We don't guess. Every marketing decision is backed by analytics, testing, and measurable data. ROI and performance are constantly tracked and optimized.",              bentoComponent: "animated-bar-chart"},
+            {
+              title: "Fast & Modern Performance",              description:
+                "Website speed impacts rankings and conversions. Our sites load lightning-fast with optimized performance, modern architecture, and excellent Core Web Vitals.",              bentoComponent: "line-chart"},
+            {
+              title: "Continuous Optimization",              description:
+                "Your digital presence doesn't stop after launch. We provide ongoing optimization, monitoring, and strategic improvements to keep you ahead of the competition.",              bentoComponent: "marquee",              centerIcon: RefreshCw,
+              variant: "text",              texts: [
+                "A/B Testing",                "Performance Monitoring",                "Conversion Tracking",                "Competitor Analysis"],
             },
             {
-              title: "Fast & Modern Performance",
-              description:
-                "Website speed impacts rankings and conversions. Our sites load lightning-fast with optimized performance, modern architecture, and excellent Core Web Vitals.",
-              bentoComponent: "line-chart",
-            },
-            {
-              title: "Continuous Optimization",
-              description:
-                "Your digital presence doesn't stop after launch. We provide ongoing optimization, monitoring, and strategic improvements to keep you ahead of the competition.",
-              bentoComponent: "marquee",
-              centerIcon: RefreshCw,
-              variant: "text",
-              texts: [
-                "A/B Testing",
-                "Performance Monitoring",
-                "Conversion Tracking",
-                "Competitor Analysis",
-              ],
-            },
-            {
-              title: "AI-Enhanced Solutions",
-              description:
-                "We leverage artificial intelligence for predictive analytics, personalization, automation, and intelligent optimization. Gain competitive advantage with advanced technology.",
-              bentoComponent: "3d-stack-cards",
-              items: [
+              title: "AI-Enhanced Solutions",              description:
+                "We leverage artificial intelligence for predictive analytics, personalization, automation, and intelligent optimization. Gain competitive advantage with advanced technology.",              bentoComponent: "3d-stack-cards",              items: [
                 {
                   icon: Cpu,
-                  title: "Machine Learning",
-                  subtitle: "Predictive Analytics",
-                  detail: "AI-driven insights",
-                },
+                  title: "Machine Learning",                  subtitle: "Predictive Analytics",                  detail: "AI-driven insights"},
                 {
                   icon: Zap,
-                  title: "Automation",
-                  subtitle: "Smart Workflows",
-                  detail: "24/7 optimization",
-                },
+                  title: "Automation",                  subtitle: "Smart Workflows",                  detail: "24/7 optimization"},
                 {
                   icon: Sparkles,
-                  title: "Personalization",
-                  subtitle: "Smart Experience",
-                  detail: "Individual journey",
-                },
+                  title: "Personalization",                  subtitle: "Smart Experience",                  detail: "Individual journey"},
               ],
             },
           ]}
@@ -266,29 +211,17 @@ export default function HomePage() {
           author="Sarah Martinez, CEO at TechScale Inc."
           avatars={[
             {
-              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-confident-bus-1772731415869-4f91450a.png",
-              alt: "Sarah Martinez",
-            },
+              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-confident-bus-1772731415869-4f91450a.png",              alt: "Sarah Martinez"},
             {
-              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-female-entrep-1772731418645-6ba957ca.png",
-              alt: "Client team member 1",
-            },
+              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-female-entrep-1772731418645-6ba957ca.png",              alt: "Client team member 1"},
             {
-              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-male-business-1772731419967-22cbf118.png",
-              alt: "Client team member 2",
-            },
+              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-male-business-1772731419967-22cbf118.png",              alt: "Client team member 2"},
             {
-              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-confident-mar-1772731419935-167676be.png",
-              alt: "Client team member 3",
-            },
+              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-confident-mar-1772731419935-167676be.png",              alt: "Client team member 3"},
             {
-              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-confident-bus-1772731415869-4f91450a.png",
-              alt: "Client team member 4",
-            },
+              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-confident-bus-1772731415869-4f91450a.png",              alt: "Client team member 4"},
             {
-              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-female-entrep-1772731418645-6ba957ca.png",
-              alt: "Client team member 5",
-            },
+              src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-female-entrep-1772731418645-6ba957ca.png",              alt: "Client team member 5"},
           ]}
           ratingAnimation="slide-up"
           avatarsAnimation="slide-up"
@@ -304,73 +237,45 @@ export default function HomePage() {
           tagIcon={Trophy}
           features={[
             {
-              title: "E-Commerce Platform Redesign",
-              description:
-                "From outdated to conversion machine. 245% increase in online sales, 3.8x improvement in average order value, and 180% boost in mobile traffic.",
-              bentoComponent: "media-stack",
-              items: [
+              title: "E-Commerce Platform Redesign",              description:
+                "From outdated to conversion machine. 245% increase in online sales, 3.8x improvement in average order value, and 180% boost in mobile traffic.",              bentoComponent: "media-stack",              items: [
                 {
                   imageSrc:
-                    "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/before-and-after-comparison-of-a-corpora-1772731419773-dd5a6bf8.png?_wi=1",
-                  imageAlt: "Before and after website redesign",
-                },
+                    "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/before-and-after-comparison-of-a-corpora-1772731419773-dd5a6bf8.png",                  imageAlt: "Before and after website redesign"},
                 {
                   imageSrc:
-                    "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/e-commerce-website-showcase-with-modern--1772731420444-ca39301f.png?_wi=1",
-                  imageAlt: "E-commerce platform improvement",
-                },
+                    "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/e-commerce-website-showcase-with-modern--1772731420444-ca39301f.png",                  imageAlt: "E-commerce platform improvement"},
                 {
                   imageSrc:
-                    "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-services-website-redesign-s-1772731420366-1e377798.png?_wi=1",
-                  imageAlt: "Final portfolio showcase",
-                },
+                    "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-services-website-redesign-s-1772731420366-1e377798.png",                  imageAlt: "Final portfolio showcase"},
               ],
             },
             {
-              title: "B2B Services Website & Lead Gen",
-              description:
-                "Strategic overhaul generated qualified leads at scale. 420% increase in monthly leads, 55% reduction in cost-per-lead, and 12x ROI on digital marketing spend.",
-              bentoComponent: "icon-info-cards",
-              items: [
+              title: "B2B Services Website & Lead Gen",              description:
+                "Strategic overhaul generated qualified leads at scale. 420% increase in monthly leads, 55% reduction in cost-per-lead, and 12x ROI on digital marketing spend.",              bentoComponent: "icon-info-cards",              items: [
                 {
                   icon: TrendingUp,
-                  label: "Lead Growth",
-                  value: "420%",
-                },
+                  label: "Lead Growth",                  value: "420%"},
                 {
                   icon: DollarSign,
-                  label: "Cost Per Lead",
-                  value: "-55%",
-                },
+                  label: "Cost Per Lead",                  value: "-55%"},
                 {
                   icon: Target,
-                  label: "Marketing ROI",
-                  value: "12x",
-                },
+                  label: "Marketing ROI",                  value: "12x"},
               ],
             },
             {
-              title: "Results Timeline",
-              description:
-                "Dominant local rankings and consistent client flow. #1 Google position in all target keywords, 890% increase in monthly appointments, and $2M+ generated revenue.",
-              bentoComponent: "3d-task-list",
-              title: "Results Timeline",
-              items: [
+              title: "Results Timeline",              description:
+                "Dominant local rankings and consistent client flow. #1 Google position in all target keywords, 890% increase in monthly appointments, and $2M+ generated revenue.",              bentoComponent: "3d-task-list",              items: [
                 {
                   icon: Search,
-                  label: "Google Rankings",
-                  time: "Month 3",
-                },
+                  label: "Google Rankings",                  time: "Month 3"},
                 {
                   icon: Phone,
-                  label: "Appointment Calls",
-                  time: "Month 4",
-                },
+                  label: "Appointment Calls",                  time: "Month 4"},
                 {
                   icon: DollarSign,
-                  label: "Revenue Generated",
-                  time: "Ongoing",
-                },
+                  label: "Revenue Generated",                  time: "Ongoing"},
               ],
             },
           ]}
@@ -390,28 +295,20 @@ export default function HomePage() {
           features={[
             {
               icon: Lightbulb,
-              title: "Discovery & Strategy",
-              description:
-                "Deep dive into your business, market, competitors, and goals. We research, analyze, and build a comprehensive strategic roadmap with clear KPIs and success metrics.",
-            },
+              title: "Discovery & Strategy",              description:
+                "Deep dive into your business, market, competitors, and goals. We research, analyze, and build a comprehensive strategic roadmap with clear KPIs and success metrics."},
             {
               icon: Palette,
-              title: "Design & Build",
-              description:
-                "Strategic design meets technical excellence. We create stunning, high-converting websites and marketing assets optimized for performance and user experience.",
-            },
+              title: "Design & Build",              description:
+                "Strategic design meets technical excellence. We create stunning, high-converting websites and marketing assets optimized for performance and user experience."},
             {
               icon: Rocket,
-              title: "Launch & Optimization",
-              description:
-                "Careful deployment with rigorous testing. Post-launch optimization, performance monitoring, and immediate refinements ensure optimal results from day one.",
-            },
+              title: "Launch & Optimization",              description:
+                "Careful deployment with rigorous testing. Post-launch optimization, performance monitoring, and immediate refinements ensure optimal results from day one."},
             {
               icon: TrendingUp,
-              title: "Growth & Marketing",
-              description:
-                "Strategic marketing execution and continuous optimization. Data-driven campaigns, ongoing improvements, and sustainable growth are our focus for long-term success.",
-            },
+              title: "Growth & Marketing",              description:
+                "Strategic marketing execution and continuous optimization. Data-driven campaigns, ongoing improvements, and sustainable growth are our focus for long-term success."},
           ]}
           animationType="slide-up"
           textboxLayout="default"
