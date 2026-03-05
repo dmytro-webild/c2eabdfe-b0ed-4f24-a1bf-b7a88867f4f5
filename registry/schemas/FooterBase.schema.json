@@ -2,8 +2,8 @@
   "name": "FooterBase",
   "propsSchema": {
     "columns": "Array<{ title: string, items: Array<{ label: string, href: string }> }> - Footer navigation columns",
-    "logoText?": "string (default: 'Contact Us ')",
-    "copyrightText?": "string (default: '© 2025 | Contact Us ')",
+    "logoText?": "string (default: 'CONTACT US ')",
+    "copyrightText?": "string (default: '© 2025 | CONTACT US ')",
     "onPrivacyClick?": "() => void",
     "ariaLabel?": "string (default: 'Site footer')",
     "className?": "string",
