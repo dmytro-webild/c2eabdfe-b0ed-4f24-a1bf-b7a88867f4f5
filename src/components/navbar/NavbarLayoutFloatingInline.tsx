@@ -23,7 +23,7 @@ interface NavbarLayoutFloatingInlineProps {
 
 const NavbarLayoutFloatingInline = ({
   navItems,
-  brandName = "Contact Us ",
+  brandName = "CONTACT US ",
   button,
   animateOnLoad = true,
   className = "",
