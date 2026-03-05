@@ -18,7 +18,7 @@ interface LogoProps {
 const Logo = ({
   // logoSrc,
   // logoAlt = "",
-  brandName = "Webild",
+  brandName = "Contact Us ",
   // className = "",
   // imageClassName = "",
   textClassName = "",
