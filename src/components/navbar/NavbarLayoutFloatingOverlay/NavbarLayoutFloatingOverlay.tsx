@@ -28,7 +28,7 @@ const NavbarLayoutFloatingOverlay = ({
   // logoSrc,
   // logoAlt = "",
   className = "",
-  brandName = "Contact Us ",
+  brandName = "Webild",
   button,
   buttonClassName = "",
   buttonTextClassName = "",
