@@ -65,7 +65,7 @@ export default function AboutPage() {
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
           navItems={navItems}
-          brandName="VintDragon"
+          brandName="Vintdragon"
           button={{
             text: "Book Strategy Call",
             href: "/contact",
@@ -76,7 +76,7 @@ export default function AboutPage() {
 
       <div id="about-hero" data-section="about-hero">
         <HeroCentered
-          title="About VintDragon - Your Digital Growth Partner"
+          title="About Vintdragon - Your Digital Growth Partner"
           description="Founded on the principle that great design and marketing strategy drive measurable business results. We combine creative excellence with data-driven methodology to transform digital presence into competitive advantage."
           avatars={[
             {
@@ -105,7 +105,7 @@ export default function AboutPage() {
       <div id="our-story" data-section="our-story">
         <FeatureBento
           title="Our Story & Mission"
-          description="VintDragon was founded on the conviction that every business deserves world-class digital solutions. We started small—just a passionate team of designers and marketers. Today, we've helped 50+ companies achieve exponential growth through strategic thinking and technical excellence."
+          description="Vintdragon was founded on the conviction that every business deserves world-class digital solutions. We started small—just a passionate team of designers and marketers. Today, we've helped 50+ companies achieve exponential growth through strategic thinking and technical excellence."
           tag="About Us"
           tagIcon={Sparkles}
           features={[
@@ -181,7 +181,7 @@ export default function AboutPage() {
       <div id="footer" data-section="footer">
         <FooterBaseReveal
           columns={footerColumns}
-          copyrightText="© 2025 VintDragon. Driving Business Growth Through Digital Excellence."
+          copyrightText="© 2025 Vintdragon. Driving Business Growth Through Digital Excellence."
         />
       </div>
     </ThemeProvider>
