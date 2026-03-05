@@ -7,7 +7,7 @@ import FeatureBorderGlow from "@/components/sections/feature/featureBorderGlow/F
 import FeatureBento from "@/components/sections/feature/FeatureBento";
 import TestimonialCardFifteen from "@/components/sections/testimonial/TestimonialCardFifteen";
 import ContactCenter from "@/components/sections/contact/ContactCenter";
-import FooterCard from "@/components/sections/footer/FooterCard";
+import FooterBase from "@/components/sections/footer/FooterBase";
 import Link from "next/link";
 import {
   Layout,
@@ -37,6 +37,41 @@ export default function HomePage() {
     { name: "Why Us", id: "/why-vintdragon" },
     { name: "Portfolio", id: "/portfolio" },
     { name: "Process", id: "/process" },
+  ];
+
+  const footerColumns = [
+    {
+      title: "Navigate",      items: [
+        { label: "Home", href: "/" },
+        { label: "Services", href: "/services" },
+        { label: "Expertise", href: "/why-vintdragon" },
+        { label: "Contact", href: "/contact" },
+      ],
+    },
+    {
+      title: "Services",      items: [
+        { label: "Cybersecurity", href: "/services" },
+        { label: "AI Solutions", href: "/services" },
+        { label: "Development", href: "/services" },
+        { label: "Consulting", href: "/services" },
+      ],
+    },
+    {
+      title: "Company",      items: [
+        { label: "About Us", href: "/" },
+        { label: "Blog", href: "/" },
+        { label: "Careers", href: "/" },
+        { label: "Press", href: "/" },
+      ],
+    },
+    {
+      title: "Legal",      items: [
+        { label: "Privacy Policy", href: "/" },
+        { label: "Terms of Service", href: "/" },
+        { label: "Security", href: "/" },
+        { label: "Compliance", href: "/" },
+      ],
+    },
   ];
 
   return (
@@ -304,7 +339,8 @@ export default function HomePage() {
       </div>
 
       <div id="footer" data-section="footer">
-        <FooterCard
+        <FooterBase
+          columns={footerColumns}
           logoText="VintDragon"
           copyrightText="© 2025 VintDragon. Driving Business Growth Through Digital Excellence."
         />
