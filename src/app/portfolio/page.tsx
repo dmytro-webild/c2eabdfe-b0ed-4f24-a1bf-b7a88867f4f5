@@ -124,17 +124,17 @@ export default function PortfolioPage() {
               items: [
                 {
                   imageSrc:
-                    "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/before-and-after-comparison-of-a-corpora-1772731419773-dd5a6bf8.png",
+                    "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/before-and-after-comparison-of-a-corpora-1772731419773-dd5a6bf8.png?_wi=2",
                   imageAlt: "Before and after redesign",
                 },
                 {
                   imageSrc:
-                    "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/e-commerce-website-showcase-with-modern--1772731420444-ca39301f.png",
+                    "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/e-commerce-website-showcase-with-modern--1772731420444-ca39301f.png?_wi=2",
                   imageAlt: "Modern e-commerce showcase",
                 },
                 {
                   imageSrc:
-                    "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-services-website-redesign-s-1772731420366-1e377798.png",
+                    "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-services-website-redesign-s-1772731420366-1e377798.png?_wi=2",
                   imageAlt: "Success transformation",
                 },
               ],
