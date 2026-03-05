@@ -57,7 +57,7 @@ const NavbarStyleCentered = ({
   topBarButton,
   // logoSrc,
   // logoAlt = "",
-  brandName = "Webild",
+  brandName = "Contact Us ",
   className = "",
 }: NavbarStyleCenteredProps) => {
   const [isActive, setIsActive] = useState(false);
