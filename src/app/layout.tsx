@@ -1,24 +1,76 @@
 import type { Metadata } from "next";
+import { Halant } from "next/font/google";
 import { Inter } from "next/font/google";
+import { Mulish } from "next/font/google";
 import "./globals.css";
-import "./styles/variables.css";
-import "./styles/base.css";
+import { ServiceWrapper } from "@/components/ServiceWrapper";
+import Tag from "@/tag/Tag";
 
-const inter = Inter({ subsets: ["latin"] });
+const halant = Halant({
+  variable: "--font-halant",
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+});
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+});
+
+const mulish = Mulish({
+  variable: "--font-mulish",
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
-  title: "VintDragon - Digital Marketing & Web Development",  description: "VintDragon helps scaling companies generate more leads, dominate their markets, and drive measurable revenue growth through strategic web design, AI-powered marketing, and data-driven optimization."};
+  title: "VintDragon - Digital Marketing & Web Development for Growing Businesses",
+  description: "Premium digital marketing and web development agency. We help scaling companies generate more leads, dominate their markets, and drive measurable revenue growth through strategic design and AI-powered solutions.",
+  keywords: "digital marketing, web development, SEO, paid advertising, conversion optimization, AI marketing, website design, growth agency, lead generation, performance marketing",
+  metadataBase: new URL("https://vintdragon.com"),
+  alternates: {
+    canonical: "https://vintdragon.com",
+  },
+  openGraph: {
+    title: "VintDragon - Digital Marketing & Web Development",
+    description: "Strategic growth partner helping businesses generate more leads and revenue through high-performance websites and data-driven marketing.",
+    url: "https://vintdragon.com",
+    siteName: "VintDragon",
+    images: [
+      {
+        url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/a-modern-data-visualization-dashboard-sh-1772731420415-4a8ffe67.png",
+        alt: "VintDragon - Digital Growth & Marketing",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "VintDragon - Results-Driven Digital Marketing & Web Development",
+    description: "Grow your business through strategic web design, AI-powered marketing, and data-driven optimization.",
+    images: [
+      "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/a-modern-data-visualization-dashboard-sh-1772731420415-4a8ffe67.png",
+    ],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        {children}
-      
+    <html lang="en" suppressHydrationWarning>
+      <ServiceWrapper>
+        <body
+          className={`${halant.variable} ${inter.variable} ${mulish.variable} antialiased`}
+        >
+          <Tag />
+          {children}
+        
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -1386,6 +1438,7 @@ export default function RootLayout({
           }}
         />
       </body>
+      </ServiceWrapper>
     </html>
   );
 }
