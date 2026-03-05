@@ -1,7 +1,7 @@
 {
   "name": "FooterLogoReveal",
   "propsSchema": {
-    "logoText?": "string (default: 'Contact Us ')",
+    "logoText?": "string (default: 'CONTACT US ')",
     "logoLineHeight?": "number (default: 1.1)",
     "ariaLabel?": "string (default: 'Site footer')",
     "className?": "string",

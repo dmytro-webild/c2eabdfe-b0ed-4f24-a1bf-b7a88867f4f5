@@ -30,11 +30,11 @@ interface FooterBaseProps {
 
 const FooterBase = ({
   // logoSrc = "/brand/logowhite.svg",
-  logoText = "Contact Us ",
+  logoText = "CONTACT US ",
   // logoWidth = 120,
   // logoHeight = 40,
   columns,
-  copyrightText = `© 2025 | Contact Us `,
+  copyrightText = `© 2025 | CONTACT US `,
   onPrivacyClick,
   ariaLabel = "Site footer",
   className = "",
