@@ -6,14 +6,14 @@
     "textRules": {
       "logoText": {
         "required": false,
-        "default": "Contact Us ",
+        "default": "Webild",
         "example": "Company Name",
         "minChars": 2,
         "maxChars": 30
       },
       "copyrightText": {
         "required": false,
-        "default": "© 2025 | Contact Us ",
+        "default": "© 2025 | Webild",
         "example": "© 2025 Company Name",
         "minChars": 5,
         "maxChars": 50
@@ -66,8 +66,8 @@
     "videoSrc": "string (required if no imageSrc)",
     "videoAriaLabel?": "string (default: 'Footer video')",
     "columns": "Array<{ title: string, items: Array<{ label: string, href: string }> }> - Footer navigation columns (required)",
-    "logoText?": "string (default: 'Contact Us ')",
-    "copyrightText?": "string (default: '© 2025 | Contact Us ')",
+    "logoText?": "string (default: 'Webild')",
+    "copyrightText?": "string (default: '© 2025 | Webild')",
     "onPrivacyClick?": "() => void",
     "ariaLabel?": "string (default: 'Site footer')",
     "className?": "string",
