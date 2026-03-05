@@ -6,7 +6,7 @@
     "textRules": {
       "logoText": {
         "required": true,
-        "example": "Contact Us ",
+        "example": "CONTACT US ",
         "minChars": 2,
         "maxChars": 20
       },
@@ -79,7 +79,7 @@
     "blurClassName?": "string",
     "dimOverlayClassName?": "string"
   },
-  "usageExample": "<ThemeProvider defaultButtonVariant=\"hover-bubble\" defaultTextAnimation=\"entrance-slide\" borderRadius=\"pill\">\n  <HeroLogo \n    logoText=\"Contact Us \" \n    description=\"Building the future of web design with innovative solutions\" \n    buttons={[{ text: 'Get Started', href: 'https://github.com' }, { text: 'Learn More', href: 'about' }]} \n    imageSrc=\"/placeholders/placeholder5.jpg\" \n    imageAlt=\"Hero background\"\n  />\n</ThemeProvider>",
+  "usageExample": "<ThemeProvider defaultButtonVariant=\"hover-bubble\" defaultTextAnimation=\"entrance-slide\" borderRadius=\"pill\">\n  <HeroLogo \n    logoText=\"CONTACT US \" \n    description=\"Building the future of web design with innovative solutions\" \n    buttons={[{ text: 'Get Started', href: 'https://github.com' }, { text: 'Learn More', href: 'about' }]} \n    imageSrc=\"/placeholders/placeholder5.jpg\" \n    imageAlt=\"Hero background\"\n  />\n</ThemeProvider>",
   "do": [
     "Use for landing pages",
     "Use for feature showcases",
