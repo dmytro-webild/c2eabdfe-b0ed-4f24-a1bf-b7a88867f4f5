@@ -1,9 +1,9 @@
 {
   "name": "FooterBaseCard",
   "propsSchema": {
-    "logoText?": "string (default: 'Webild')",
+    "logoText?": "string (default: 'Contact Us ')",
     "columns": "Array<{ title: string, items: Array<{ label: string, href: string }> }> - Footer navigation columns",
-    "copyrightText?": "string (default: '© 2025 | Webild')",
+    "copyrightText?": "string (default: '© 2025 | Contact Us ')",
     "onPrivacyClick?": "() => void",
     "ariaLabel?": "string (default: 'Site footer')",
     "className?": "string",
