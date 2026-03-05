@@ -57,7 +57,7 @@ const NavbarStyleCentered = ({
   topBarButton,
   // logoSrc,
   // logoAlt = "",
-  brandName = "Contact Us ",
+  brandName = "CONTACT US ",
   className = "",
 }: NavbarStyleCenteredProps) => {
   const [isActive, setIsActive] = useState(false);
