@@ -6,7 +6,7 @@
     "textRules": {
       "logoText": {
         "required": false,
-        "default": "Webild",
+        "default": "Contact Us ",
         "example": "Company Name",
         "minChars": 2,
         "maxChars": 30
