@@ -69,7 +69,7 @@ export default function PortfolioPage() {
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
           navItems={navItems}
-          brandName="VintDragon"
+          brandName="Vintdragon"
           button={{
             text: "Book Strategy Call",            href: "/contact"}}
           animateOnLoad={true}
@@ -79,7 +79,7 @@ export default function PortfolioPage() {
       <div id="portfolio-hero" data-section="portfolio-hero">
         <HeroCentered
           title="Portfolio & Case Studies - Real Results from Real Clients"
-          description="See the measurable impact VintDragon has delivered to businesses like yours. Our portfolio showcases strategic design, data-driven marketing, and tangible revenue growth."
+          description="See the measurable impact Vintdragon has delivered to businesses like yours. Our portfolio showcases strategic design, data-driven marketing, and tangible revenue growth."
           avatars={[
             {
               src: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3AUTy5QR9k4M4P80OQXSbT6XGLr/professional-headshot-of-a-confident-bus-1772731415869-4f91450a.png",              alt: "Success stories"},
@@ -144,7 +144,7 @@ export default function PortfolioPage() {
 
       <div id="client-testimonial" data-section="client-testimonial">
         <TestimonialCardFifteen
-          testimonial="VintDragon didn't just redesign our website—they transformed our entire digital presence. Within six months, our leads tripled and our conversion rate improved by 2x. They're true partners who genuinely care about our success."
+          testimonial="Vintdragon didn't just redesign our website—they transformed our entire digital presence. Within six months, our leads tripled and our conversion rate improved by 2x. They're true partners who genuinely care about our success."
           rating={5}
           author="Michael Chen, Founder of Growth Ventures"
           avatars={[
@@ -170,7 +170,7 @@ export default function PortfolioPage() {
       <div id="footer" data-section="footer">
         <FooterBaseReveal
           columns={footerColumns}
-          copyrightText="© 2025 VintDragon. Driving Business Growth Through Digital Excellence."
+          copyrightText="© 2025 Vintdragon. Driving Business Growth Through Digital Excellence."
         />
       </div>
     </ThemeProvider>
