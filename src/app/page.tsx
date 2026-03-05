@@ -7,7 +7,6 @@ import FeatureBorderGlow from "@/components/sections/feature/featureBorderGlow/F
 import FeatureBento from "@/components/sections/feature/FeatureBento";
 import TestimonialCardFifteen from "@/components/sections/testimonial/TestimonialCardFifteen";
 import ContactCenter from "@/components/sections/contact/ContactCenter";
-import FooterBase from "@/components/sections/footer/FooterBase";
 import Link from "next/link";
 import {
   Layout,
@@ -92,8 +91,7 @@ export default function HomePage() {
           navItems={navItems}
           brandName="VintDragon"
           button={{
-            text: "Book Strategy Call",            href: "/contact"
-          }}
+            text: "Book Strategy Call",            href: "/contact"}}
           animateOnLoad={true}
         />
       </div>
@@ -339,11 +337,67 @@ export default function HomePage() {
       </div>
 
       <div id="footer" data-section="footer">
-        <FooterBase
-          columns={footerColumns}
-          logoText="VintDragon"
-          copyrightText="© 2025 VintDragon. Driving Business Growth Through Digital Excellence."
-        />
+        <footer className="relative w-full bg-black border-t border-white/10">
+          <div className="mx-auto px-4 py-16 max-w-7xl">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+              <div>
+                <h3 className="text-white font-semibold mb-4">Navigate</h3>
+                <ul className="space-y-2">
+                  {footerColumns[0].items.map((item, idx) => (
+                    <li key={idx}>
+                      <a href={item.href} className="text-gray-400 hover:text-red-500 transition-colors text-sm">
+                        {item.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-white font-semibold mb-4">Services</h3>
+                <ul className="space-y-2">
+                  {footerColumns[1].items.map((item, idx) => (
+                    <li key={idx}>
+                      <a href={item.href} className="text-gray-400 hover:text-red-500 transition-colors text-sm">
+                        {item.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-white font-semibold mb-4">Company</h3>
+                <ul className="space-y-2">
+                  {footerColumns[2].items.map((item, idx) => (
+                    <li key={idx}>
+                      <a href={item.href} className="text-gray-400 hover:text-red-500 transition-colors text-sm">
+                        {item.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-white font-semibold mb-4">Legal</h3>
+                <ul className="space-y-2">
+                  {footerColumns[3].items.map((item, idx) => (
+                    <li key={idx}>
+                      <a href={item.href} className="text-gray-400 hover:text-red-500 transition-colors text-sm">
+                        {item.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            <div className="border-t border-white/10 pt-8">
+              <div className="flex flex-col md:flex-row justify-between items-center">
+                <p className="text-gray-400 text-sm mb-4 md:mb-0">© 2025 VintDragon. Driving Business Growth Through Digital Excellence.</p>
+                <p className="text-gray-500 text-xs">Crafted with precision for modern SaaS businesses</p>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
     </ThemeProvider>
   );
