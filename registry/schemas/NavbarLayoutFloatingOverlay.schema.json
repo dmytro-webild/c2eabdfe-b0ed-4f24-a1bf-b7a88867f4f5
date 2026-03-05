@@ -3,7 +3,7 @@
   "propsSchema": {
     "navItems": "Array<{name: string, id: string}>",
     "className?": "string",
-    "brandName?": "string (default: 'Contact Us ')",
+    "brandName?": "string (default: 'CONTACT US ')",
     "button": "{text: string, onClick?: () => void, href?: string}",
     "buttonClassName?": "string (default: '')",
     "buttonTextClassName?": "string (default: '')"
