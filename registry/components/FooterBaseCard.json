@@ -6,14 +6,14 @@
     "textRules": {
       "copyrightText": {
         "required": false,
-        "example": "© 2025 | Contact Us ",
+        "example": "© 2025 | CONTACT US ",
         "minChars": 5,
         "maxChars": 100,
         "note": "Copyright text displayed at bottom left"
       },
       "logoText": {
         "required": false,
-        "example": "Contact Us ",
+        "example": "CONTACT US ",
         "minChars": 2,
         "maxChars": 30,
         "note": "Text used for h2 heading"
@@ -34,9 +34,9 @@
     }
   },
   "propsSchema": {
-    "logoText?": "string (default: 'Contact Us ')",
+    "logoText?": "string (default: 'CONTACT US ')",
     "columns": "Array<{ title: string, items: Array<{ label: string, href: string }> }> - Footer navigation columns (required)",
-    "copyrightText?": "string (default: '© 2025 | Contact Us ')",
+    "copyrightText?": "string (default: '© 2025 | CONTACT US ')",
     "onPrivacyClick?": "() => void",
     "ariaLabel?": "string (default: 'Site footer')",
     "className?": "string",
@@ -51,7 +51,7 @@
     "copyrightTextClassName?": "string",
     "privacyButtonClassName?": "string"
   },
-  "usageExample": "<FooterBaseCard columns={[{ title: 'Product', items: [{ label: 'Features', href: '/features' }, { label: 'Pricing', href: '/pricing' }] }, { title: 'Company', items: [{ label: 'About', href: '/about' }, { label: 'Blog', href: '/blog' }] }]} logoText=\"Contact Us \" copyrightText=\"© 2025 | Contact Us \" onPrivacyClick={() => console.log('Privacy clicked')} />",
+  "usageExample": "<FooterBaseCard columns={[{ title: 'Product', items: [{ label: 'Features', href: '/features' }, { label: 'Pricing', href: '/pricing' }] }, { title: 'Company', items: [{ label: 'About', href: '/about' }, { label: 'Blog', href: '/blog' }] }]} logoText=\"CONTACT US \" copyrightText=\"© 2025 | CONTACT US \" onPrivacyClick={() => console.log('Privacy clicked')} />",
   "do": [
     "Use for general use",
     "Requires columns[]"
