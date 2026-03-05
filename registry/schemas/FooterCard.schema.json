@@ -1,8 +1,8 @@
 {
   "name": "FooterCard",
   "propsSchema": {
-    "logoText?": "string (default: 'Contact Us ')",
-    "copyrightText?": "string (default: '© 2025 | Contact Us ')",
+    "logoText?": "string (default: 'CONTACT US ')",
+    "copyrightText?": "string (default: '© 2025 | CONTACT US ')",
     "socialLinks?": "Array<{ icon: LucideIcon, href: string, ariaLabel: string }> - Social media links",
     "ariaLabel?": "string (default: 'Site footer')",
     "className?": "string",
